@@ -82,10 +82,9 @@ ol{
     position: relative;
     transform: translate(40%, -70%);
     width: 50%;
-    background-color: black;
     display: flex;
     flex-direction: column;
-    background: transparent;
+    display: none;
 }
 
 .closeBtn{
