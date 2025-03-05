@@ -77,3 +77,26 @@ ol{
     font-size: 2rem;
     color: black
 }
+
+.imageOverlay  {
+    position: relative;
+    transform: translate(40%, -70%);
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.closeBtn{
+    position: absolute;
+    z-index: 1;
+    background: none;
+    width: 2rem;
+    height: 1rem;   
+    right: 0;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: yellow;
+}
